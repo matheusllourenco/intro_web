@@ -1,11 +1,24 @@
 {
   "name": "intro_web",
   "version": "1.0.0",
-  "description": "",
+  "description": "Meu projeto IntroWeb",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusllourenco/intro_web.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/matheusllourenco/intro_web/issues"
+  },
+  "homepage": "https://github.com/matheusllourenco/intro_web#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
